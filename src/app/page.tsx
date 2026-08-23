@@ -15,12 +15,23 @@ import { homeFaqs, teamMembers } from "@/data";
 
 export default function HomePage() {
   const tickerImages = [
-    "/images/gallery_ribbon_cutting.png",
+    "/images/our_mission.avif",
+    "/images/VcefQ6DePUxW9VxYxUlC2QOSnzQ.webp",
+    "/images/our_vision.avif",
+    "/images/THRCXqUA0WmGiQd0lUtRWaEyw.webp",
+    "/images/2hcIRh2BHg8DSi7JtML7pFJY.avif",
+    "/images/28V1BEXXD59m4O8r7LmcGg4rDg.webp",
+    "/images/aboutt.avif",
+    "/images/eOI61KYxIDdENZAG5XRr4ykhsw.jpg.jpeg",
+    "/images/ndRPsskpwK0XxaYfvUfrFkBk.jpg.jpeg",
     "/images/gallery_home_visit.png",
-    "/images/gallery_felicitation.png",
-    "/images/gallery_staff_group.png",
-    "/images/gallery_lamp_lighting.png",
-    "/images/gallery_opening_event.png",
+    "/images/hero_caregiver.jpg",
+    "/images/hero_nurse_senior.png",
+    "/images/icu_doctors_team.png",
+    "/images/team_doctors_group.png",
+    "/images/testimonial_caregiver.png",
+    "/images/testimonial_rehab.png",
+    "/images/testimonial_elderly.png",
   ];
 
   const testimonialList = [
@@ -321,18 +332,18 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 3: SMOOTH INFINITE MARQUEE TICKER */}
-      <section className="py-6 overflow-hidden max-w-[1284px] mx-auto">
+      <section className="py-8 overflow-hidden w-full">
         <div className="relative w-full overflow-hidden">
-          <div className="animate-marquee gap-6 py-2">
+          <div className="animate-marquee gap-5 sm:gap-6 py-4">
             {[...tickerImages, ...tickerImages].map((img, idx) => (
               <div
                 key={idx}
-                className="w-[240px] sm:w-[280px] h-[220px] sm:h-[260px] shrink-0 rounded-[24px] overflow-hidden border border-[#e5e0d9] shadow-sm hover:scale-[1.03] transition-transform duration-300 gpu-layer"
+                className="w-[200px] sm:w-[250px] md:w-[270px] h-[280px] sm:h-[320px] md:h-[350px] shrink-0 rounded-[24px] sm:rounded-[30px] overflow-hidden border border-[#e5e0d9] shadow-sm hover:shadow-xl hover:scale-[1.03] transition-all duration-300 gpu-layer group bg-white"
               >
                 <img
                   src={img}
                   alt={`Healthcare Moment ${idx + 1}`}
-                  className="w-full h-full object-cover rounded-[24px]"
+                  className="w-full h-full object-cover rounded-[24px] sm:rounded-[30px] group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                 />
               </div>
