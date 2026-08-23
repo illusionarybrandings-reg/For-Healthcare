@@ -50,8 +50,7 @@ export default function AboutPage() {
             className="lg:col-span-4 rounded-[28px] overflow-hidden shadow-sm h-[380px] relative group border border-[#e5e0d9] gpu-layer"
           >
             <img
-              src="/images/hero_nurse_senior.png"
-              alt="Caregivers with Senior Patient"
+              src="/images/aboutt.avif"
               className="w-full h-full object-cover rounded-[28px] group-hover:scale-105 transition-transform duration-500"
             />
             {/* Logo Badge Overlay */}
@@ -76,21 +75,10 @@ export default function AboutPage() {
             className="lg:col-span-4 rounded-[28px] overflow-hidden shadow-sm h-[380px] relative group border border-[#e5e0d9] gpu-layer"
           >
             <img
-              src="/images/icu_doctors_team.png"
+              src="/images/28V1BEXXD59m4O8r7LmcGg4rDg.webp"
               alt="Hands holding green heart"
               className="w-full h-full object-cover rounded-[28px] group-hover:scale-105 transition-transform duration-500"
             />
-            {/* Logo Badge Overlay */}
-            <div className="absolute top-12 left-1/2 -translate-x-1/2 bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl border border-white/60 shadow-md flex items-center gap-2">
-              <img
-                src="/images/logo.svg"
-                alt="Logo"
-                className="h-6 w-auto object-contain"
-              />
-              <div className="text-[10px] font-bold text-[#004400] leading-tight">
-                Better Care.<br />Better Life.
-              </div>
-            </div>
           </motion.div>
 
           {/* Right Stacked Column 3: Team photo + Rating Card (4 Cols) */}
@@ -233,7 +221,7 @@ export default function AboutPage() {
         >
           <div className="lg:col-span-6 rounded-[28px] overflow-hidden shadow-md h-[380px] border border-[#e5e0d9]">
             <img
-              src="/images/hero_nurse_senior.png"
+              src="/images/our_mission.avif"
               alt="Our Mission Illustration"
               className="w-full h-full object-cover rounded-[28px]"
             />
@@ -274,7 +262,7 @@ export default function AboutPage() {
         >
           <div className="lg:col-span-6 rounded-[28px] overflow-hidden shadow-md h-[380px] border border-[#e5e0d9]">
             <img
-              src="/images/faq_consultation.png"
+              src="/images/our_vision.avif"
               alt="Our Vision Illustration"
               className="w-full h-full object-cover rounded-[28px]"
             />

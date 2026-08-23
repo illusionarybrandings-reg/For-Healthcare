@@ -84,22 +84,22 @@ export const homeFaqs: FaqItem[] = [
   {
     question: "What services does FOR HEALTH CARE provide?",
     answer:
-      "We provide professional home healthcare services including individual nursing care, elderly care, physiotherapy, rehabilitation services, ICU trained attendants, post-surgery recovery support, occupational therapy, and patient care assistance.",
+      "We provide professional home healthcare services including nursing care, elderly care, physiotherapy, rehabilitation services, ICU trained attendants, post-surgery recovery support, occupational therapy, and patient care assistance.",
   },
   {
     question: "How do I book a healthcare service?",
     answer:
-      "You can book directly by filling out our online booking form on the Book Now page, calling us at +91 81975 26597 / +91 99640 05780, or emailing forhealthcare.forlife@gmail.com.",
+      "Connecting with someone who listens without judgment can brighten even the toughest days. A simple, caring conversation often reminds you that you’re not alone—and that sometimes, support is just a sentence away.",
   },
   {
     question: "Are your healthcare professionals qualified?",
     answer:
-      "Yes! All our nurses, physiotherapists, and ICU attendants are certified medical professionals with background checks and extensive clinical training.",
+      "When you’re in a space where you feel seen, heard, and understood, your whole mood shifts. It’s amazing how much lighter life feels when you can share your thoughts with someone who genuinely wants the best for you.",
   },
   {
-    question: "Do you provide 24/7 services at home?",
+    question: "Do you provide services at home?",
     answer:
-      "Yes, we offer both 12-hour day/night shifts and 24-hour full-time resident nursing and attendant support across Bengaluru.",
+      "A calm, compassionate talk can be like a breath of fresh air for your mind. It helps you slow down, recharge emotionally, and rediscover the positive energy that keeps you moving forward.",
   },
 ];
 

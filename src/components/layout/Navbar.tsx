@@ -93,7 +93,7 @@ export default function Navbar() {
             : "py-3.5 bg-[#fffefb]/90 backdrop-blur-md border-b border-[#004400]/10"
         }`}
       >
-        <div className="max-w-[1284px] mx-auto px-6 flex items-center justify-between">
+        <div className="max-w-[1284px] mx-auto px-4 sm:px-6 flex items-center justify-between">
           {/* Brand Logo */}
           <Link
             href="/"
@@ -104,7 +104,7 @@ export default function Navbar() {
             <img
               src="/images/logo.svg"
               alt="FOR HEALTH CARE Logo"
-              className="h-14 sm:h-16 md:h-18 lg:h-20 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
+              className="h-10 sm:h-14 md:h-16 lg:h-18 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
             />
           </Link>
 

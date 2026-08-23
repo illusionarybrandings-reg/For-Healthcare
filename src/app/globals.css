@@ -74,3 +74,20 @@ h1, h2, h3, h4, h5, h6 {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 }
+
+/* Responsive Image & Layout Safety */
+img, svg, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Word Wrapping for Tight Mobile Displays */
+p, h1, h2, h3, h4, span, a {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/* Smooth Touch Scrolling for iOS & Android */
+.overflow-y-auto, .overflow-x-auto {
+  -webkit-overflow-scrolling: touch;
+}

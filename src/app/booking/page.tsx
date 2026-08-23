@@ -9,19 +9,19 @@ import BookingForm from "@/components/forms/BookingForm";
 export default function BookingPage() {
   const testimonialList = [
     {
-      img: "/images/Onv0uwv88snMM3ufsoztWXdICM.png",
+      img: "/images/testimonial_caregiver.png",
       quote:
         "“The home nursing service was truly exceptional. The caregivers were compassionate, professional, and always attentive to my father’s recovery needs.”",
       category: "Post-Surgery Recovery",
     },
     {
-      img: "/images/kXc3q3HutYKbMEr00UYWxsCjIc.png",
+      img: "/images/testimonial_rehab.png",
       quote:
         "“The rehabilitation sessions helped me regain confidence and mobility. The therapists were patient, encouraging, and highly experienced.”",
       category: "Rehabilitation Therapy",
     },
     {
-      img: "/images/pKZWtgmSxeetMMdHNPeYubJJu8.png",
+      img: "/images/testimonial_elderly.png",
       quote:
         "“FOR HEALTH CARE treated my grandmother with kindness and dignity. Their elderly care support brought comfort to our entire family.”",
       category: "Elderly Home Care",
@@ -193,36 +193,36 @@ export default function BookingPage() {
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-20">
             <div className="w-[300px] h-[300px] rounded-full border border-white relative">
               <img
-                src="/images/vdHKJ6pMK8h4WXDLvqqhhVh8QYw.png"
+                src="/images/orbit_avatar_1.png"
                 alt="Avatar Orbit 1"
                 className="w-8 h-8 rounded-full absolute -top-4 left-1/2 -translate-x-1/2 object-cover border border-white"
               />
               <img
-                src="/images/UVZ3OOT3l7BgQmMQWtjbMZINI.png"
+                src="/images/orbit_avatar_2.png"
                 alt="Avatar Orbit 2"
                 className="w-8 h-8 rounded-full absolute -bottom-4 left-1/2 -translate-x-1/2 object-cover border border-white"
               />
             </div>
             <div className="w-[480px] h-[480px] rounded-full border border-white absolute">
               <img
-                src="/images/ISiaEJFNai2zdqUUNXt9an6i2A.png"
+                src="/images/orbit_avatar_3.png"
                 alt="Avatar Orbit 3"
                 className="w-8 h-8 rounded-full absolute top-1/4 left-2 object-cover border border-white"
               />
               <img
-                src="/images/Ep6wHZHVRvegKGJgLIjjJOxQx8.png"
+                src="/images/orbit_avatar_4.png"
                 alt="Avatar Orbit 4"
                 className="w-8 h-8 rounded-full absolute top-1/4 right-2 object-cover border border-white"
               />
             </div>
             <div className="w-[660px] h-[660px] rounded-full border border-white absolute">
               <img
-                src="/images/8dNtN8hN1fKbrbSzztYGIC5BsVI.png"
+                src="/images/orbit_avatar_5.png"
                 alt="Avatar Orbit 5"
                 className="w-8 h-8 rounded-full absolute bottom-1/4 left-12 object-cover border border-white"
               />
               <img
-                src="/images/Pken43RssSOGnCdE8dQjSJ0.png"
+                src="/images/orbit_avatar_6.png"
                 alt="Avatar Orbit 6"
                 className="w-8 h-8 rounded-full absolute bottom-1/4 right-12 object-cover border border-white"
               />
