@@ -15,15 +15,7 @@ import { homeFaqs, teamMembers } from "@/data";
 
 export default function HomePage() {
   const tickerImages = [
-    "/images/our_mission.avif",
-    "/images/VcefQ6DePUxW9VxYxUlC2QOSnzQ.webp",
-    "/images/our_vision.avif",
-    "/images/THRCXqUA0WmGiQd0lUtRWaEyw.webp",
-    "/images/2hcIRh2BHg8DSi7JtML7pFJY.avif",
-    "/images/28V1BEXXD59m4O8r7LmcGg4rDg.webp",
     "/images/aboutt.avif",
-    "/images/eOI61KYxIDdENZAG5XRr4ykhsw.jpg.jpeg",
-    "/images/ndRPsskpwK0XxaYfvUfrFkBk.jpg.jpeg",
     "/images/gallery_home_visit.png",
     "/images/hero_caregiver.jpg",
     "/images/hero_nurse_senior.png",

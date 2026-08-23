@@ -8,7 +8,9 @@ export const metadata: Metadata = {
   description:
     "FOR HEALTH CARE is a trusted home healthcare and rehabilitation service provider dedicated to delivering compassionate, professional, and personalized medical support at home across Bengaluru.",
   icons: {
-    icon: "/images/hero_caregiver.jpg",
+    icon: "/images/logo.svg",
+    shortcut: "/images/logo.svg",
+    apple: "/images/logo.svg",
   },
 };
 
