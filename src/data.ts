@@ -14,6 +14,8 @@ export interface ServiceData {
   detailedIntro: string;
   featuresTitle: string;
   features: string[];
+  imageSrc?: string;
+  videoSrc?: string;
 }
 
 export interface Testimonial {
@@ -155,6 +157,7 @@ export const serviceMap: Record<string, ServiceData> = {
       "Elderly Nursing Support",
       "Palliative & Supportive Care",
     ],
+    imageSrc: "/images/hero_nurse_senior.png",
   },
   "physiotherapy-support": {
     title: "Physiotherapy Support",
@@ -175,6 +178,7 @@ export const serviceMap: Record<string, ServiceData> = {
       "Post-Surgery Recovery",
       "Neurological Rehabilitation",
     ],
+    imageSrc: "/images/testimonial_rehab.png",
   },
   "elderly-home-care": {
     title: "Elderly Home Care",
@@ -195,6 +199,7 @@ export const serviceMap: Record<string, ServiceData> = {
       "Dementia & Alzheimer’s Support",
       "Health Monitoring",
     ],
+    imageSrc: "/images/testimonial_elderly.png",
   },
   "icu-trained-attendants": {
     title: "ICU Trained Attendants",
@@ -215,6 +220,7 @@ export const serviceMap: Record<string, ServiceData> = {
       "Hospital-to-Home Transition Care",
       "24/7 Long-Term Care Support",
     ],
+    imageSrc: "/images/icu_doctors_team.png",
   },
   "post-surgery-recovery": {
     title: "Post Surgery Recovery",
@@ -235,6 +241,7 @@ export const serviceMap: Record<string, ServiceData> = {
       "Recovery Monitoring",
       "Home Nursing Support",
     ],
+    imageSrc: "/images/testimonial_caregiver.png",
   },
   rehabilitation: {
     title: "Rehabilitation Service",
@@ -255,5 +262,7 @@ export const serviceMap: Record<string, ServiceData> = {
       "Pain Management Services",
       "24/7 Rehabilitation Nursing",
     ],
+    videoSrc: "/images/WhatsApp Video 2026-08-25 at 14.34.40.mp4",
+    imageSrc: "/images/testimonial_rehab.png",
   },
 };

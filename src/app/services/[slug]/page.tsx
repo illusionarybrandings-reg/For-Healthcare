@@ -124,12 +124,26 @@ export default async function ServiceDetailPage({
             </div>
           </div>
 
-          <div className="rounded-3xl overflow-hidden shadow-xl">
-            <img
-              src="/images/hero_caregiver.jpg"
-              alt={service.title}
-              className="w-full h-[400px] object-cover rounded-3xl"
-            />
+          <div className="rounded-3xl overflow-hidden shadow-xl relative h-[400px]">
+            {service.videoSrc ? (
+              <video
+                src={service.videoSrc}
+                aria-label={service.title}
+                className="w-full h-full object-cover rounded-3xl"
+                autoPlay
+                loop
+                muted
+                playsInline
+                controls
+                preload="auto"
+              />
+            ) : (
+              <img
+                src={service.imageSrc || "/images/hero_caregiver.jpg"}
+                alt={service.title}
+                className="w-full h-full object-cover rounded-3xl"
+              />
+            )}
           </div>
         </div>
       </section>
