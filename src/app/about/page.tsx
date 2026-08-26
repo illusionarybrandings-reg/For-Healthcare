@@ -47,7 +47,7 @@ export default function AboutPage() {
             animate="visible"
             variants={fadeUp}
             transition={{ delay: 0.1 }}
-            className="lg:col-span-4 rounded-[28px] overflow-hidden shadow-sm h-[380px] relative group border border-[#e5e0d9] gpu-layer"
+            className="lg:col-span-4 rounded-[28px] overflow-hidden shadow-sm h-[250px] sm:h-[320px] lg:h-[380px] relative group border border-[#e5e0d9] gpu-layer"
           >
             <img
               src="/images/aboutt.avif"
@@ -72,7 +72,7 @@ export default function AboutPage() {
             animate="visible"
             variants={fadeUp}
             transition={{ delay: 0.2 }}
-            className="lg:col-span-4 rounded-[28px] overflow-hidden shadow-sm h-[380px] relative group border border-[#e5e0d9] gpu-layer"
+            className="lg:col-span-4 rounded-[28px] overflow-hidden shadow-sm h-[250px] sm:h-[320px] lg:h-[380px] relative group border border-[#e5e0d9] gpu-layer"
           >
             <img
               src="/images/28V1BEXXD59m4O8r7LmcGg4rDg.webp"
@@ -219,11 +219,11 @@ export default function AboutPage() {
           variants={fadeUp}
           className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center gpu-layer"
         >
-          <div className="lg:col-span-6 rounded-[28px] overflow-hidden shadow-md h-[380px] border border-[#e5e0d9]">
+          <div className="lg:col-span-6 rounded-[28px] overflow-hidden shadow-md h-[240px] sm:h-[320px] lg:h-[380px] border border-[#e5e0d9]">
             <img
               src="/images/our_mission.avif"
               alt="Our Mission Illustration"
-              className="w-full h-full object-cover rounded-[28px]"
+              className="w-full h-full object-cover object-center rounded-[28px]"
             />
           </div>
 
@@ -260,11 +260,11 @@ export default function AboutPage() {
           variants={fadeUp}
           className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center gpu-layer"
         >
-          <div className="lg:col-span-6 rounded-[28px] overflow-hidden shadow-md h-[380px] border border-[#e5e0d9]">
+          <div className="lg:col-span-6 rounded-[28px] overflow-hidden shadow-md h-[240px] sm:h-[320px] lg:h-[380px] border border-[#e5e0d9]">
             <img
               src="/images/our_vision.avif"
               alt="Our Vision Illustration"
-              className="w-full h-full object-cover rounded-[28px]"
+              className="w-full h-full object-cover object-center rounded-[28px]"
             />
           </div>
 
@@ -364,7 +364,7 @@ export default function AboutPage() {
             <FaqAccordion items={homeFaqs} />
           </div>
 
-          <div className="lg:col-span-6 rounded-[24px] overflow-hidden shadow-md h-[380px]">
+          <div className="lg:col-span-6 rounded-[24px] overflow-hidden shadow-md h-[240px] sm:h-[320px] lg:h-[380px]">
             <img
               src="/images/faq_consultation.png"
               alt="Healthcare FAQ Consultation"
